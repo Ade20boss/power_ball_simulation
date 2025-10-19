@@ -24,7 +24,7 @@ python --version
 ## Installation
 Clone the repository:
 ```
-git clone [https://github.com/YourUsername/your-repository-name.git](https://github.com/YourUsername/your-repository-name.git)
+git clone https://github.com/Ade20boss/power_ball_simulation
 cd powerball-simulator
 ```
 
