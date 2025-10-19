@@ -20,7 +20,53 @@ You only need Python 3 installed on your system.
 python --version
 ```
 
-Installation
+---
+## Installation
 Clone the repository:
+```
 git clone [https://github.com/YourUsername/your-repository-name.git](https://github.com/YourUsername/your-repository-name.git)
 cd powerball-simulator
+```
+
+---
+##How to Run
+Execute the script directly from your terminal:
+```
+python powerball_simulator.py
+```
+Follow the on-screen prompts to enter your numbers and the number of times you wish to play.
+
+---
+##Core Logic
+The simulator uses the following Powerball rules:
+
+| White Balls Matched | Powerball Matched | Prize Amount |
+| :-----------------: | :---------------: | :----------: |
+| 5                   | Yes               | Jackpot      |
+| 5                   | No                | $1,000,000   |
+| 4                   | Yes               | $50,000      |
+| 4                   | No                | $100         |
+| 3                   | Yes               | $100         |
+| 3                   | No                | $7           |
+| 2                   | Yes               | $7           |
+| 1                   | Yes               | $4           |
+| 0                   | Yes               | $4           |
+
+Note: For the purpose of calculation, the Jackpot prize is set to a fixed value of $400,000,000.
+
+----
+
+🤝 Contribution
+Feel free to fork the repository and submit pull requests! Ideas for improvement include:
+
+Tracking and printing detailed Prize Breakdown statistics.
+
+Allowing the Jackpot value to be configured by the user.
+
+Adding command-line arguments for non-interactive simulation.
+
+---
+
+⚖️ License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
